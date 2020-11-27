@@ -10,7 +10,7 @@ else {
     }    
 }
 
-int multsignal(int x, int y){
+int multsignal(int x, int y){    //hier werden zwei werte multipliziert und bei jedem Funktionsaufruf wird "Multiplikationen: ..." geprintet
     std::cout << "Multiplikation: " << x << " * " << y << std::endl;
     return x * y;
 }
