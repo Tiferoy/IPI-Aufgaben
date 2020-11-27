@@ -30,7 +30,7 @@ int main(){
     std::cin >> basis;
     std::cout << "Gib einen Exponenten an: ";
     std::cin >> exponent;
-    std::cout << "Ergebnis: " << exponentation(basis, exponent) << std::endl;
+    std::cout << exponentation(basis, exponent) << std::endl;
     std::cout << "" << std::endl;
     std::cout << "Irgendawas stimmt hier noch nicht ganz. Eigentlich sollten da nur halb so viele Multiplikationen stehen. Andererseits dieht man, das das Programm im Prinzip das Richtige rechnet. Ich sehe den Fehler nicht." << std::endl;
 }
